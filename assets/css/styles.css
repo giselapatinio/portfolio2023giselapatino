@@ -299,7 +299,7 @@ body.light-theme {
   font-size: var(--biggest-font-size);
 }
 .home__img {
-  width: 160px;
+  width: 190px;
 }
 .home__handle {
   justify-self: center;
@@ -420,6 +420,51 @@ body.light-theme {
 }
 .about__description {
   margin-bottom: 2rem;
+}
+.about.work-demo .section__title {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.demo__container {
+  row-gap: 2.5rem;
+}
+.demo__img {
+  width: 220px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+.demo__data {
+  text-align: center;
+}
+.demo__info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.demo__box {
+  background-color: var(--container-color);
+  border-radius: 0.75rem;
+  padding: 0.75rem 0.5rem;
+}
+.demo__icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  margin-bottom: 0.5rem;
+}
+.demo__title {
+  font-size: var(--small-font-size);
+}
+.demo__subtitle {
+  font-size: var(--tiny-font-size);
+}
+.demo__description {
+  margin-bottom: 2rem;
+}
+.demo .section__title {
+  max-width: 700px;
+  margin-inline: auto;
 }
 
 /*=============== SKILLS ===============*/
@@ -612,6 +657,9 @@ body.light-theme {
 }
 
 /*=============== TESTIMONIAL ===============*/
+.testimonial {
+  position: relative;
+}
 .testimonial__card {
   background-color: var(--container-color);
   padding: 1.25rem 1.5rem;
@@ -797,7 +845,8 @@ body.light-theme {
   .home__img {
     width: 130px;
   }
-  .about__info {
+  .about__info,
+  .demo__info {
     grid-template-columns: repeat(2, 1fr);
   }
   .skills__box {
@@ -825,11 +874,13 @@ body.light-theme {
     right: 0;
     margin: 0 auto;
   }
-  .about__info {
+  .about__info,
+  .demo__info {
     grid-template-columns: repeat(3, 140px);
     justify-content: center;
   }
-  .about__description {
+  .about__description,
+  .demo__description {
     padding: 0 5rem;
   }
   .skills__container {
@@ -894,7 +945,7 @@ body.light-theme {
     height: 400px;
   }
   .home__img {
-    width: 220px;
+    width: 260px;
   }
   .home__social-link {
     padding: 0.4rem;
@@ -906,25 +957,31 @@ body.light-theme {
   .home__scroll-icon {
     font-size: 2rem;
   }
-  .about__container {
+  .about__container,
+  .demo__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 4rem;
   }
-  .about__img {
+  .about__img,
+  .demo__img {
     width: 350px;
   }
-  .about__data {
+  .about__data,
+  .demo__data {
     text-align: initial;
   }
-  .about__info {
+  .about__info,
+  .demo__info {
     justify-content: initial;
   }
-  .about__box {
+  .about__box,
+  .demo__box {
     text-align: center;
     padding: 1rem 1.25rem;
   }
-  .about__description {
+  .about__description,
+  .demo__description {
     padding: 0 4rem 0 0;
     margin-bottom: 2.5rem;
   }
