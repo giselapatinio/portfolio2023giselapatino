@@ -1,122 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== FAVICON ===============-->
-    <link
-      rel="shortcut icon"
-      href="assets/img/favicon.png"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== BOXICONS ===============-->
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--=============== BOXICONS ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-    <title>Banco Macro | Gigi Patiño</title>
-  </head>
-  <body>
-    <!--=============== HEADER ===============-->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="/" class="nav__logo">Back to <span></span> home</a>
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/stylesDemos.css" />
 
-        <div class="nav__menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="bx bx-home-alt nav__icon"></i>
-              </a>
-            </li>
+  <title>Banco Macro | Gigi Patiño</title>
+</head>
 
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="bx bx-user nav__icon"></i>
-              </a>
-            </li>
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="/" class="nav__logo"><i class='bx bx-arrow-back'></i><span> Back to</span> home</a>
 
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="bx bx-book nav__icon"></i>
-              </a>
-            </li>
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="bx bx-home-alt nav__icon"></i>
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#work" class="nav__link">
-                <i class="bx bx-briefcase-alt-2 nav__icon"></i>
-              </a>
-            </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="bx bx-user nav__icon"></i>
+            </a>
+          </li>
 
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="bx bx-message-square-detail nav__icon"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="bx bx-book nav__icon"></i>
+            </a>
+          </li>
 
-        <!-- Theme change button -->
-        <i class="bx bx-moon change-theme" id="theme-button"></i>
-      </nav>
-    </header>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">
+              <i class="bx bx-briefcase-alt-2 nav__icon"></i>
+            </a>
+          </li>
 
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__data">
-            <span class="home__greeting">Banco Macro 2021</span>
-            <h1 class="home__name">Home page redesign</h1>
-            <h3 class="home__education">Semi Senior UX/UI Designer</h3>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="bx bx-message-square-detail nav__icon"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-            <div class="home__buttons">
-              <!-- <a
-                download=""
-                href="assets/pdf/Ansel-Cv.pdf"
-                class="button button--ghost"
-              >
-                Download CV
-              </a>
-              <a href="#about" class="button">About me</a>
-            </div> -->
-          </div>
+      <!-- Theme change button -->
+      <i class="bx bx-moon change-theme" id="theme-button"></i>
+    </nav>
+  </header>
 
-          <div class="home__handle">
-            <!-- Insert your image, according to the example size of the portfolio -->
-            <img src="assets/img/perfil-hero.svg" alt="Profile picture" class="home__img" />
-          </div>
-
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__greeting">Banco Macro 2021</span>
+          <h1 class="home__name">Home page redesign</h1>
+          <h3 class="home__education">Semi Senior UX/UI Designer</h3>
+          <img src="assets/img/hero-macro.png" alt="Profile picture" class="home__img" />
           <div class="home__social">
-            <a
-              href="www.linkedin.com/in/giselapatinio"
-              target="_blank"
-              class="home__social-link"
-            >
+            <a href="www.linkedin.com/in/giselapatinio" target="_blank" class="home__social-link">
               <i class="bx bxl-linkedin-square"></i>
             </a>
-            <a
-              href="https://www.behance.net/"
-              target="_blank"
-              class="home__social-link"
-            >
+            <a href="https://www.behance.net/" target="_blank" class="home__social-link">
               <i class="bx bxl-behance"></i>
             </a>
-            <a
-              href="https://medium.com/"
-              target="_blank"
-              class="home__social-link"
-            >
+            <a href="https://medium.com/" target="_blank" class="home__social-link">
               <i class="bx bxl-medium"></i>
             </a>
           </div>
@@ -126,676 +92,182 @@
             <span class="home__scroll-name">Scroll Down</span>
           </a>
         </div>
-      </section>
+    </section>
 
-      <!--=============== ABOUT ===============-->
-      <section class="about section work-demo" id="about">
-        <span class="section__subtitle">1. PROBLEM</span>
-        <h2 class="section__title">“We have to update the entire website because it is not
-            metricable or usable…”</h2>
+    <!--=============== PROBLEM ===============-->
+    <section class="about section work-demo" id="about">
+      <span class="section__subtitle">1. PROBLEM</span>
+      <h2 class="section__title">“We have to update the entire website because it is not
+        metricable or usable…”</h2>
 
-        <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
+      <div class="demo__container container grid">
+        <img src="assets/img/project-macro-1.png" alt="" class="demo__img" />
 
-          <div class="about__data">
-            <div class="about__info">
-              <div class="about__box">
-                <i class="bx bx-award about__icon"></i>
-                <h3 class="about__title">Time</h3>
-                <span class="about__subtitle">NOV 2021</span>
-              </div>
-
-              <div class="about__box">
-                <i class="bx bx-briefcase-alt about__icon"></i>
-                <h3 class="about__title">Team</h3>
-                <span class="about__subtitle">5 people’s</span>
-              </div>
-
-              <div class="about__box">
-                <i class="bx bx-support about__icon"></i>
-                <h3 class="about__title">Service</h3>
-                <span class="about__subtitle">UX/UI Design</span>
-              </div>
+        <div class="demo__data">
+          <div class="demo__info">
+            <div class="demo__box">
+              <i class="bx bx-award demo__icon"></i>
+              <h3 class="demo__title">Time</h3>
+              <span class="demo__subtitle">NOV 2021</span>
             </div>
 
-            <p class="about__description">
-                My performance was focused on resolving the redesign of the site within a month to start taking the first UX metrics.
-            </p>
+            <div class="demo__box">
+              <i class="bx bx-briefcase-alt demo__icon"></i>
+              <h3 class="demo__title">Team</h3>
+              <span class="demo__subtitle">5 people’s</span>
+            </div>
+
+            <div class="demo__box">
+              <i class="bx bx-support demo__icon"></i>
+              <h3 class="demo__title">Service</h3>
+              <span class="demo__subtitle">UX/UI Design</span>
+            </div>
           </div>
+
+          <p class="demo__description">
+            My performance was focused on resolving the redesign of the site within a month to start taking the first UX
+            metrics.
+          </p>
         </div>
-      </section>
-      <section class="section demo">
-        <span class="section__subtitle">2. PAIN POINTS</span>
-        <h2 class="section__title">“"First, we gather information and establish an agile process
-            for viable solutions."”</h2>
-
-        <div class="demo__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="demo__img" />
-
-          <div class="demo__data">
-            <div class="demo__info">
-              <div class="demo__box">
-                <i class="bx bx-award demo__icon"></i>
-                <h3 class="demo__title">Time</h3>
-                <span class="demo__subtitle">NOV 2021</span>
-              </div>
-
-              <div class="demo__box">
-                <i class="bx bx-briefcase-alt demo__icon"></i>
-                <h3 class="demo__title">Team</h3>
-                <span class="demo__subtitle">5 people’s</span>
-              </div>
-
-              <div class="demo__box">
-                <i class="bx bx-support demo__icon"></i>
-                <h3 class="demo__title">Service</h3>
-                <span class="demo__subtitle">UX/UI Design</span>
-              </div>
-            </div>
-
-            <p class="demo__description">
-                My performance was focused on resolving the redesign of the site within a month to start taking the first UX metrics.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== SKILLS ===============-->
-      <section class="skills section" id="skills">
-        <span class="section__subtitle">My abilities</span>
-        <h2 class="section__title">These are the tools I use the most</h2>
-
-        <div class="skills__container container grid">
-          <div class="skills__content">
-            <h3 class="skills__title">Professionals</h3>
-
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">HTML & CSS</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Accessibility</h3>
-                    <span class="skills__level">Advanced</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">UX Research</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">UX Writing</h3>
-                    <span class="skills__level">Advanced</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Q&A</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Branding</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills__content">
-            <h3 class="skills__title">Best Skills</h3>
-
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Figma</h3>
-                    <span class="skills__level">Advanced</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Sublime</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">Adobe Pack</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">MySQL</h3>
-                    <span class="skills__level">Basic</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-                  <div>
-                    <h3 class="skills__name">Maze</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="bx bxs-badge-check"></i>
-
-                  <div>
-                    <h3 class="skills__name">CMS Oracle</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== SERVICES ===============-->
-      <section class="services section">
-        <span class="section__subtitle">My Services</span>
-        <h2 class="section__title">What I Offer</h2>
-
-        <div class="services__container container grid">
-          <div class="services__card">
-            <h3 class="services__title">
-              Product <br />
-              Designer
-            </h3>
-
-            <span class="services__button">
-              See more <i class="bx bx-right-arrow-alt services__icon"></i>
-            </span>
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <i class="bx bx-x services__modal-close"></i>
-
-                <h3 class="services__modal-title">Product Designer</h3>
-                <p class="services__modal-description">
-                  I possess over 4 years of experience in the development of
-                  diverse products.
-                </p>
-
-                <ul class="services__modal-list">
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I assess the status of your product or service.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I formulate a strategy based on time and resources.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I craft manuals for scaling the proposal.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I establish brand positioning through user experience.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I rigorously test and validate projects with other
-                      departments.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="services__card">
-            <h3 class="services__title">
-              UX/UI <br />
-              Designer
-            </h3>
-
-            <span class="services__button">
-              See more <i class="bx bx-right-arrow-alt services__icon"></i>
-            </span>
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <i class="bx bx-x services__modal-close"></i>
-
-                <h3 class="services__modal-title">UX/UI Designer</h3>
-                <p class="services__modal-description">
-                  Since 2020, I've fully immersed myself in UX in all forms,
-                  emphasizing agile processes to steer products towards a
-                  digital future.
-                </p>
-
-                <ul class="services__modal-list">
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I go through the available materials to avoid unnecessary
-                      development costs.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I create a strategic action plan and collaborate closely
-                      with you as the client.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I set clear timelines and deliver the necessary content
-                      for testing purposes.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="services__card">
-            <h3 class="services__title">
-              UX <br />
-              Writer
-            </h3>
-
-            <span class="services__button">
-              See more <i class="bx bx-right-arrow-alt services__icon"></i>
-            </span>
-
-            <div class="services__modal">
-              <div class="services__modal-content">
-                <i class="bx bx-x services__modal-close"></i>
-
-                <h3 class="services__modal-title">UX Writer/Content</h3>
-                <p class="services__modal-description">
-                  Service with more than 3 years of experience. Providing
-                  quality work to clients and companies.
-                </p>
-
-                <ul class="services__modal-list">
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I compile a report detailing common practices and areas
-                      for enhancement.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      Additionally, I collaborate with the marketing departments
-                      to devise strategies and style guides.
-                    </p>
-                  </li>
-
-                  <li class="services__modal-item">
-                    <i class="bx bx-check services__modal-icon"></i>
-                    <p class="services__modal-info">
-                      I also assist with usability and accessibility tests to
-                      conclude the project.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== WORK ===============-->
-      <section class="work section" id="work">
-        <span class="section__subtitle">My Portfolio</span>
-        <h2 class="section__title">Recent Works</h2>
-
-        <div class="work__filters">
-          <span class="work__item active-work" data-filter="all">All</span>
-          <span class="work__item" data-filter=".web">Web</span>
-          <span class="work__item" data-filter=".movil">Movil</span>
-          <span class="work__item" data-filter=".design">Design</span>
-        </div>
-
-        <div class="work__container container grid">
-          <div class="work__card mix web">
-            <img src="assets/img/portada-proyecto-banco-macro.svg" alt="Banco Macro" class="work__img" />
-
-            <h3 class="work__title">Banco Macro 2022</h3>
-
-            <a href="" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix movil">
-            <img src="assets/img/work2.jpg" alt="" class="work__img" />
-
-            <h3 class="work__title">App movil</h3>
-
-            <a href="" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix design">
-            <img src="assets/img/work3.jpg" alt="" class="work__img" />
-
-            <h3 class="work__title">Brand design</h3>
-
-            <a href="" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix web">
-            <img src="assets/img/work4.jpg" alt="" class="work__img" />
-
-            <h3 class="work__title">Web design</h3>
-
-            <a href="" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-
-          <div class="work__card mix movil">
-            <img src="assets/img/work5.jpg" alt="" class="work__img" />
-
-            <h3 class="work__title">App movil</h3>
-
-            <a href="" class="work__button">
-              Demo <i class="bx bx-right-arrow-alt work__icon"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== TESTIMONIALS ===============-->
-      <section class="testimonial section">
-        <span class="section__subtitle">My clients say</span>
-        <h2 class="section__title">Testimonial</h2>
-
-        <div class="testimonial__container container swiper">
-          <div class="swiper-wrapper">
-            <div class="testimonial__card swiper-slide">
-              <img
-                src="assets/img/ed-perfil.jpg"
-                alt=""
-                class="testimonial__img"
-              />
-
-              <h3 class="testimonial__name">Edgardo Barreto - SwagCharm</h3>
-              <p class="testimonial__description">
-                Her ability to work in a team is impressive, and she is always committed and enthusiastic.
-              </p>
-            </div>
-
-            <div class="testimonial__card swiper-slide">
-              <img
-                src="assets/img/den-perfil.jpg"
-                alt=""
-                class="testimonial__img"
-              />
-
-              <h3 class="testimonial__name">Denise A. Esquivel - Churrasco CC</h3>
-              <p class="testimonial__description">
-                Gi is a UX professional who proposes disruptive ideas based on her experience in communication.
-              </p>
-            </div>
-
-            <div class="testimonial__card swiper-slide">
-              <img
-                src="assets/img/sofi-perfil.jpg"
-                alt=""
-                class="testimonial__img"
-              />
-
-              <h3 class="testimonial__name">Sofia Duarte - Banco Macro</h3>
-              <p class="testimonial__description">
-                She always takes recommendations and actively seeks answers and solutions to any challenge you throw at her.
-              </p>
-            </div>
-            <div class="testimonial__card swiper-slide">
-              <img
-                src="assets/img/euge-perfil.jpg"
-                alt=""
-                class="testimonial__img"
-              />
-  
-              <h3 class="testimonial__name">Eugenia Debiasi - Banco Macro</h3>
-              <p class="testimonial__description">
-                She’s super committed to the job, because she is passionate about it and she wants to get the best out of it.
-              </p>
-            </div>
-          </div>               
-        </div>
-
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!--=============== CONTACT ===============-->
-      <section class="contact section" id="contact">
-        <span class="section__subtitle">Get in touch</span>
-        <h2 class="section__title">Contact Me</h2>
-
-        <div class="contact__container container grid">
-          <div class="contact__content">
-            <h3 class="contact__title">Talk to me</h3>
-
-            <div class="contact__info">
-              <div class="contact__card">
-                <i class='bx bxs-envelope contact__card-icon'></i>
-                <h3 class="contact__card-title">Email</h3>
-                <span class="contact__card-data">Giselapatiniov@gmail.com</span>
-
-                <!-- Insert your original email -->
-                <a
-                  href="mailto:giselapatiniov@gmail.com"
-                  target="_blank"
-                  class="contact__button"
-                >
-                  Write me
-                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                </a>
-              </div>
-
-              <div class="contact__card">
-                <i class="bx bxl-whatsapp contact__card-icon"></i>
-                <h3 class="contact__card-title">Whatsapp</h3>
-                <span class="contact__card-data">+54 9 11 3668 2382</span>
-
-                <!-- Insert a real number plus country code -->
-                <a
-                  href="https://api.whatsapp.com/send?phone=1136682382&text=Hola%20Gigi,%20acabo%20de%20ver%20tu%20portolio%20y%20me%20gustar%C3%ADa%20hablar%20con%20vos"
-                  target="_blank"
-                  class="contact__button"
-                >
-                  Write me
-                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                </a>
-              </div>
-
-              <div class="contact__card">
-                <i class="bx bxl-linkedin-square contact__card-icon"></i>
-                <h3 class="contact__card-title">Linkedin</h3>
-                <span class="contact__card-data">@giselapatinio</span>
-
-                <!-- Insert your brand name or profile -->
-                <a
-                  href="www.linkedin.com/in/giselapatinio"
-                  target="_blank"
-                  class="contact__button"
-                >
-                  Write me
-                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="contact__content">
-            <h3 class="contact__title">Write me your project</h3>
-
-            <form action="https://formsubmit.co/26bc348cf1bd3b626ac97ebc8add6866" method="POST" class="contact__form">
-              <!-- https://formsubmit.co/documentation --> 
-              <input type="hidden" name="_subject" value="Portfolio Contact">
-              <input type="text" name="_honey" style="display:none">
-              <input type="hidden" name="_autoresponse" value="Thank you for reaching out. This is just a quick confirmation that we have successfully received your contact. I will be reviewing your message and will respond to you as soon as possible.">
-              <div class="contact__form-div">
-                <label class="contact__form-tag">Names</label>
-                <input
-                  type="text"
-                  placeholder="Insert your name"
-                  class="contact__form-input"
-                  name="name"
-                />
-              </div>
-
-              <div class="contact__form-div">
-                <label class="contact__form-tag">Mail</label>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Insert your email"
-                  class="contact__form-input"
-                  required
-                />
-              </div>
-
-              <div class="contact__form-div contact__form-area">
-                <label class="contact__form-tag">Project</label>
-                <textarea
-                  name="message"
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Write your project"
-                  class="contact__form-input"
-                ></textarea>
-              </div>
-
-              <button class="button">Send Message</button>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!--=============== FOOTER ===============-->
-    <footer class="footer">
-      <div class="footer__container container">
-        <h1 class="footer__title">Gigi Patiño</h1>
-
-        <ul class="footer__list">
-          <li>
-            <a href="#about" class="footer__link">About</a>
-          </li>
-          <li>
-            <a href="#work" class="footer__link">Projects</a>
-          </li>
-          <li>
-            <a href="#testimonial" class="footer__link">Testimonials</a>
-          </li>
-        </ul>
-
-        <ul class="footer__social">
-          <a
-            href="www.linkedin.com/in/giselapatinio"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-linkedin-square"></i>
-          </a>
-          <a
-            href="https://www.behance.net/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-behance"></i>
-          </a>
-          <a
-            href="https://medium.com/"
-            target="_blank"
-            class="footer__social-link"
-          >
-            <i class="bx bxl-medium"></i>
-          </a>
-        </ul>
-
-        <span class="footer__copy">
-          &#169; Gigi Patiño. All rights reserved
-        </span>
       </div>
-    </footer>
+    </section>
+    <!--=============== PAIN POINT ===============-->
 
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
+    <section class="section demo pain-point-2">
+      <span class="section__subtitle">2. PAIN POINTS</span>
+      <h2 class="section__title">“"First, we gather information and establish an agile process
+        for viable solutions."”</h2>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+      <div class="demo__container container grid">
 
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
-  </body>
+        <div class="demo__data">
+          <p class="demo__description">
+            The greatest challenge I faced was consolidating the UX discipline into decision-making, implementing its
+            best practices and agile processes, in order to have more relevant web content for both the user and the
+            business.
+          </p>
+        </div>
+
+        <img src="assets/img/project-macro-2.png" alt="Dibujo de Personas construyendo un logo" class="demo__img" />
+      </div>
+    </section>
+
+    <!--=============== PROCESS ===============-->
+    <section class="section process">
+      <div class="container">
+        <img src="assets/img/project-macro-3.png" alt="Pasos del Proceso" class="process__img" />
+      </div>
+    </section>
+
+    <!--=============== RESULTS ===============-->
+    <section class="section results">
+      <span class="section__subtitle">3. RESULTS</span>
+      <h2 class="section__title">"You're on the verge of witnessing a whole year filled with a 
+        spectrum of emotions, learning, experiences, and most importantly, 
+        a strong sense of camaraderie."</h2>
+      <div class="container results__cards">
+        <div class="results__card">
+          <div class="results__card__text">
+            <p>Home Page of Banco Macro</p>
+            <p>We revamped the bank's official webpage with fresh visual elements and accessibility tools. Our mission was to modernize and streamline the interface of the Oracle CMS to enhance the experience. We worked on the text, restructured communication spaces, and devised a new design system.</p>
+
+          </div>
+        <img src="assets/img/project-macro-4.png" alt="Computadora con pagina web" class="results__card__img" />
+
+        </div>
+        <div class="results__card">
+          <img src="assets/img/project-macro-5.png" alt="Vistas mobile" class="results__card__img" />
+          <div class="results__card__text">
+            <p>Card Acquisition Flow</p>
+            <p>I collaborated closely with Poincenot to enhance the user flow for product acquisition. Together, we achieved delivering a digital, responsive, and secure experience. Additionally, we identified pain points in credit card acquisition to offer positive communication spaces with valuable information for the users.
+            </p>
+          </div>
+        </div>  
+          <div class="results__card">
+            <div class="results__card__text">
+              <p>Rapicompra by Banco Macro</p>
+              <p>The issue with this banking proposal was that users weren't utilizing the benefits businesses offered with the bank. So, we realized that the solution was to enhance the content quality and the reception page experience. To achieve that, we crafted clearer and more appealing digital elements to gain better visibility of partnerships.</p>
+  
+            </div>
+          <img src="assets/img/project-macro-6.png" alt="Computadora" class="results__card__img" />
+          </div>
+          <div class="results__card">
+            <img src="assets/img/project-macro-7.png" alt="Vistas mobile" class="results__card__img" />
+            <div class="results__card__text">
+              <p>Job Fair in Argentina</p>
+              <p>Every year, the bank participates in expos to promote youth employment. To accomplish this, we revamped the image and application experience on the Success Factors platform. Despite facing design limitations, our emphasis was on enhancing the accessibility of the application process.
+              </p>
+            </div>
+           </div> 
+            <div class="results__card">
+              <div class="results__card__text">
+                <p>New Design System Banco Macro</p>
+                <p>I established the inaugural web design system to implement the bank's new aesthetic guidelines. To achieve this, we analyzed information architecture, commercial and institutional communication spaces, and components of the Oracle CMS. The project entailed revamping certain areas and creating new ones to expedite implementation timelines.</p>
+    
+              </div>
+            <img src="assets/img/project-macro-8.png" alt="Computadora" class="results__card__img" />
+            </div>
+            <div class="results__card">
+              <img src="assets/img/project-macro-9.png" alt="Vistas mobile" class="results__card__img" />
+              <div class="results__card__text">
+                <p>Jubis</p>
+                <p>I established the inaugural web design system to implement the bank's new aesthetic guidelines. To achieve this, we analyzed information architecture, commercial and institutional communication spaces, and components of the Oracle CMS. The project entailed revamping certain areas and creating new ones to expedite implementation timelines.
+                </p>
+              </div>
+
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Gigi Patiño</h1>
+
+      <ul class="footer__list">
+        <li>
+          <a href="#about" class="footer__link">About</a>
+        </li>
+        <li>
+          <a href="#work" class="footer__link">Projects</a>
+        </li>
+        <li>
+          <a href="#testimonial" class="footer__link">Testimonials</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <a href="www.linkedin.com/in/giselapatinio" target="_blank" class="footer__social-link">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+        <a href="https://www.behance.net/" target="_blank" class="footer__social-link">
+          <i class="bx bxl-behance"></i>
+        </a>
+        <a href="https://medium.com/" target="_blank" class="footer__social-link">
+          <i class="bx bxl-medium"></i>
+        </a>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Gigi Patiño. All rights reserved
+      </span>
+    </div>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MIXITUP FILTER ===============-->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
