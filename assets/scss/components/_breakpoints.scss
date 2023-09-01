@@ -65,6 +65,9 @@
     &__description {
       padding: 0 5rem;
     }
+    &__img {
+      width: 320px;
+    }
   }
 
   .skills {
@@ -170,7 +173,7 @@
       column-gap: 4rem;
     }
     &__img {
-      width: 350px;
+      width: 470px;
     }
     &__data {
       text-align: initial;

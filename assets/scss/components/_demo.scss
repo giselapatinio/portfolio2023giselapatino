@@ -3,7 +3,7 @@
     row-gap: 2.5rem;
   }
   &__img {
-    width: 220px;
+    width: 270px;
     border-radius: 1.5rem;
     justify-self: center;
   }
@@ -38,6 +38,7 @@
   & .section__title {
     max-width: 700px;
     margin-inline: auto;
+    padding: 8px;
   }
 }
 
@@ -53,9 +54,12 @@
     gap: 100px;
   }
   &__card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
     gap: 32px;
+    &:nth-child(even) {
+      flex-direction: column;
+    }
     p {
       font-size: 20px;
       margin-bottom: 16px;

@@ -234,6 +234,13 @@ body.light-theme {
   color: var(--first-color);
   font-weight: var(--font-medium);
   transition: 0.4s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.nav__logo span, .nav__logo i {
+  color: var(--title-color);
 }
 .nav__logo:hover {
   color: var(--first-color-alt);
@@ -389,7 +396,7 @@ body.light-theme {
   row-gap: 2.5rem;
 }
 .about__img {
-  width: 220px;
+  width: 250px;
   border-radius: 1.5rem;
   justify-self: center;
 }
@@ -424,47 +431,7 @@ body.light-theme {
 .about.work-demo .section__title {
   max-width: 700px;
   margin-inline: auto;
-}
-
-.demo__container {
-  row-gap: 2.5rem;
-}
-.demo__img {
-  width: 220px;
-  border-radius: 1.5rem;
-  justify-self: center;
-}
-.demo__data {
-  text-align: center;
-}
-.demo__info {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
-  margin-bottom: 2rem;
-}
-.demo__box {
-  background-color: var(--container-color);
-  border-radius: 0.75rem;
-  padding: 0.75rem 0.5rem;
-}
-.demo__icon {
-  font-size: 1.5rem;
-  color: var(--first-color);
-  margin-bottom: 0.5rem;
-}
-.demo__title {
-  font-size: var(--small-font-size);
-}
-.demo__subtitle {
-  font-size: var(--tiny-font-size);
-}
-.demo__description {
-  margin-bottom: 2rem;
-}
-.demo .section__title {
-  max-width: 700px;
-  margin-inline: auto;
+  padding: 8px;
 }
 
 /*=============== SKILLS ===============*/
@@ -883,6 +850,10 @@ body.light-theme {
   .demo__description {
     padding: 0 5rem;
   }
+  .about__img,
+  .demo__img {
+    width: 320px;
+  }
   .skills__container {
     justify-content: center;
   }
@@ -965,7 +936,7 @@ body.light-theme {
   }
   .about__img,
   .demo__img {
-    width: 350px;
+    width: 470px;
   }
   .about__data,
   .demo__data {

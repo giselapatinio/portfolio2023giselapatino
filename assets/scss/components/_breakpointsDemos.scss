@@ -53,6 +53,12 @@
     margin: 0 auto;
   }
 
+  .home {
+    &__img {
+      width: 385px;
+    }
+  }
+
   .about,
   .demo {
     &__info {
@@ -106,6 +112,8 @@
       margin: 0 auto;
     }
   }
+
+  
 }
 
 @media screen and (min-width: 767px) {
@@ -117,6 +125,13 @@
     grid-template-columns: repeat(2, max-content);
     justify-content: center;
     column-gap: 3rem;
+  }
+
+  .results{
+    &__card{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
 
@@ -153,6 +168,9 @@
     }
     &__scroll-icon {
       font-size: 2rem;
+    }
+    &__img {
+      width: fit-content;
     }
   }
 
