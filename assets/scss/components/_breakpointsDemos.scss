@@ -112,8 +112,6 @@
       margin: 0 auto;
     }
   }
-
-  
 }
 
 @media screen and (min-width: 767px) {
@@ -127,10 +125,15 @@
     column-gap: 3rem;
   }
 
-  .results{
-    &__card{
+  .results {
+    &__card {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      p {
+        &:nth-of-type(2) {
+          font-size: 20px;
+        }
+      }
     }
   }
 }
@@ -147,6 +150,7 @@
 
     &__title {
       margin-bottom: 3.5rem;
+      text-align: center;
     }
   }
 
