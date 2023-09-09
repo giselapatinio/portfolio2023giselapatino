@@ -121,22 +121,7 @@ if (selectedTheme) {
   themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](
     iconTheme
   );
-
-  // Update images
-  const processImg = document.getElementById('process-img');
-  if (processImg) {
-    if (selectedTheme === 'light') {
-      if (window.innerWidth <= 768) {
-        //TODO ADD mobile image
-      } else {
-        processImg.src = 'assets/img/process-dark.png';
-      }
-    } else {
-      if (window.innerWidth <= 768) {
-        processImg.src = 'assets/img/process-mobile.png';
-      }
-    }
-  }
+  imageHandler();
 }
 
 // Activate / deactivate the theme manually with the button
@@ -147,6 +132,25 @@ themeButton.addEventListener('click', () => {
   // We save the theme and the current icon that the user chose
   localStorage.setItem('selected-theme', getCurrentTheme());
   localStorage.setItem('selected-icon', getCurrentIcon());
+  imageHandler();
+});
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+  // reset: true
+});
+
+sr.reveal(`.home__data`);
+sr.reveal(`.home__handle`, { delay: 700 });
+sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' });
+
+/*=============== Image Handlers ===============*/
+
+function imageHandler() {
   const processImg = document.getElementById('process-img');
   if (processImg) {
     if (getCurrentTheme() === 'light') {
@@ -163,17 +167,6 @@ themeButton.addEventListener('click', () => {
       }
     }
   }
-});
+}
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-const sr = ScrollReveal({
-  origin: 'top',
-  distance: '60px',
-  duration: 2500,
-  delay: 400,
-  // reset: true
-});
-
-sr.reveal(`.home__data`);
-sr.reveal(`.home__handle`, { delay: 700 });
-sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' });
+window.addEventListener('resize', imageHandler);
