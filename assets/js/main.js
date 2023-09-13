@@ -152,14 +152,18 @@ sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' });
 
 function imageHandler() {
   const processImg = document.getElementById('process-img');
-  if (processImg) {
+  const painPointsImg = document.getElementById('pain-points-img');
+
+  if (processImg && painPointsImg) {
     if (getCurrentTheme() === 'light') {
+      painPointsImg.src = 'assets/img/project-macro-2-dark.png';
       if (window.innerWidth <= 768) {
         //TODO ADD mobile image
       } else {
         processImg.src = 'assets/img/process-dark.png';
       }
     } else {
+      painPointsImg.src = 'assets/img/project-macro-2.png';
       if (window.innerWidth <= 768) {
         processImg.src = 'assets/img/process-mobile.png';
       } else {
