@@ -477,6 +477,9 @@ body.light-theme {
   padding: 8px;
 }
 
+.results {
+  margin-bottom: 48px;
+}
 .results .section__title {
   max-width: 700px;
   margin-inline: auto;
