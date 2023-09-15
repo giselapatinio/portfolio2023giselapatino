@@ -45,7 +45,7 @@ function imageHandler() {
   if (getCurrentTheme() === 'light') {
     painPointsImg.src = 'assets/img/project-macro-2-dark.png';
     if (window.innerWidth <= 768) {
-      //TODO ADD mobile image
+      processImg.src = 'assets/img/process-dark-mobile.png';
     } else {
       processImg.src = 'assets/img/process-dark.png';
     }
