@@ -58,5 +58,6 @@ function imageHandler() {
     }
   }
 }
+imageHandler();
 
 window.addEventListener('resize', imageHandler);
